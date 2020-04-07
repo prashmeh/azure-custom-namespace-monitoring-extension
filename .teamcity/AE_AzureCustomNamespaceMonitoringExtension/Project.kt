@@ -1,6 +1,6 @@
 package AE_AzureCustomNamespaceMonitoringExtension
 
-import AE_AzureCustomNamespaceMonitoringExtension.vcsRoots.*
+import AE_AzureCustomNamespaceMonitoringExtension.buildTypes.*
 import AE_AzureCustomNamespaceMonitoringExtension.vcsRoots.AE_AzureCustomNamespaceMonitoringExtension
 import jetbrains.buildServer.configs.kotlin.v2019_2.*
 import jetbrains.buildServer.configs.kotlin.v2019_2.Project
