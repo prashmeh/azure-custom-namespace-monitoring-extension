@@ -8,7 +8,7 @@ import jetbrains.buildServer.configs.kotlin.v2018_2.buildFeatures.commitStatusPu
 fun BuildType.publishCommitStatus() {
     features {
         commitStatusPublisher {
-            vcsRootExtId = "${AE_AzureCustomNamespaceMonitoringExtension.id}"
+            vcsRootExtId = "${AE_AzureCustomNamespaceMonitoringExtension_Azurecustomnamespacemonitoringextensionci.id}"
             publisher = bitbucketServer {
                 url = "%env.BITBUCKET_SERVER%"
                 userName = "%env.BITBUCKET_USERNAME%"
