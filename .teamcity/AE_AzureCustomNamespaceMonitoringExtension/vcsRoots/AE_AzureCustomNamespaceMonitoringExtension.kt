@@ -12,6 +12,5 @@ object AE_AzureCustomNamespaceMonitoringExtension : GitVcsRoot({
     branch = "refs/heads/1.0.0"
     authMethod = uploadedKey {
         uploadedKey = "teamcityBitbucket"
-        passphrase = "credentialsJSON:0f731548-be91-4434-97a3-ab86bdbfd929"
     }
 })
