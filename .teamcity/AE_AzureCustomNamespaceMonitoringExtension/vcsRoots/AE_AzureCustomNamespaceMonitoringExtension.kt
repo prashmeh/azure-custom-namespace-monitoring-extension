@@ -3,8 +3,8 @@ package AE_AzureCustomNamespaceMonitoringExtension.vcsRoots
 import jetbrains.buildServer.configs.kotlin.v2019_2.*
 import jetbrains.buildServer.configs.kotlin.v2019_2.vcs.GitVcsRoot
 
-object AE_AzureCustomNamespaceMonitoringExtension_1 : GitVcsRoot({
-    uuid = "3dac8258-6584-41ac-b06b-918096485c25"
+object AE_AzureCustomNamespaceMonitoringExtension : GitVcsRoot({
+    uuid = "2de54c27-e130-4cea-8fef-57045953bbdf"
     id("AE_AzureCustomNamespaceMonitoringExtension")
     name = "AE_AzureCustomNamespaceMonitoringExtension"
     url = "git@github.com:prashmeh/azure-custom-namespace-monitoring-extension.git"
@@ -12,6 +12,6 @@ object AE_AzureCustomNamespaceMonitoringExtension_1 : GitVcsRoot({
     branch = "refs/heads/1.0.0"
     authMethod = uploadedKey {
         uploadedKey = "teamcityBitbucket"
-        passphrase = "credentialsJSON:0f731548-be91-4434-97a3-ab86bdbfd929"
+        passphrase = "credentialsJSON:1ca766cc-ced5-405c-990d-1d24fcbf1b22"
     }
 })
